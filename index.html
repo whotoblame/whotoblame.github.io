@@ -1,49 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta content="stuff, to, help, search, engines, not" name="keywords">
-<meta content="What this page is about." name="description">
-<meta content="Display Webcam Stream" name="title">
-<title>Display Webcam Stream</title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <meta charset="utf-8">
+        <meta content="who, to, blame, you" name="keywords">
+        <meta content="You." name="description">
+        <meta content="Who to Blame?" name="title">
+        <title>Who To Blame?</title>
+    </head>
   
-<style>
-#container {
-    margin: 0px auto;
-    width: 500px;
-    height: 375px;
-    border: 10px #333 solid;
-}
-#videoElement {
-    width: 500px;
-    height: 375px;
-    background-color: #666;
-}
-</style>
-</head>
-  
-<body>
-<div id="container">
-    <video autoplay="true" id="videoElement">
-     
-    </video>
-</div>
-<script>
-	var video = document.querySelector("#videoElement");
- 
-	navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
- 
-	if (navigator.getUserMedia) {       
-	    navigator.getUserMedia({video: true}, handleVideo, videoError);
-	}
- 
-	function handleVideo(stream) {
-    	video.src = window.URL.createObjectURL(stream);
-	}
- 
-	function videoError(e) {
-    	// do something
-	}
-</script>
-</body>
+    <body>
+        <div id="container">
+            <video autoplay="true" id="videoElement"></video>
+        </div>
+        <a href="https://twitter.com/intent/tweet?button_hashtag=WhoToBlame&text=Who's%20fault%20was%20it%3F%20find%20out%20at%20whotobla.me" class="twitter-hashtag-button" id="tweetAtWhotToBlame" data-related="EdSmilovici" data-url="http://whotobla.me">Tweet #WhoToBlame</a>
+        <a href="https://twitter.com/EdSmilovici" class="twitter-follow-button" id="followDev" data-show-count="false">Follow @EdSmilovici</a>
+        <script src="webcam.js"></script>
+        <script src="twitter.js"></script>
+    </body>
 </html>

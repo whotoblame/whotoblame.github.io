@@ -1,0 +1,35 @@
+body {
+	background-color: #00CC66;
+}
+
+#container {
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	margin-top: -187.5px;
+	margin-left: -250px;
+    width: 500px;
+    height: 375px;
+}
+#videoElement {
+    width: 500px;
+    height: 375px;
+    background-color: #123;
+}
+
+#followDev {
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	margin-top: -25px;
+	margin-left: -138px;
+}
+
+#tweetAtWhotToBlame {
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	margin-top: -50px;
+	margin-left: -138px;
+}
