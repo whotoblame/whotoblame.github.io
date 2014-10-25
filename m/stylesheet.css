@@ -22,16 +22,16 @@ p {
 	position: absolute;
 	top: 100%;
 	left: 100%;
-	margin-top: -25px;
-	margin-left: -138px;
+	margin-top: -35px;
+	margin-left: -175px;
 }
 
 #tweetAtWhotToBlame {
 	position: absolute;
 	top: 100%;
 	left: 100%;
-	margin-top: -50px;
-	margin-left: -138px;
+	margin-top: -70px;
+	margin-left: -175px;
 }
 
 #itsYou {
@@ -45,5 +45,5 @@ p {
 	text-align: right;
 	width: 98%;
 	top: 100%;
-	margin-top: -25vw;
+	margin-top: -35vw;
 }
