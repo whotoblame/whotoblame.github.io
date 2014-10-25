@@ -1,0 +1,49 @@
+body {
+	background-color: #00CC66;
+}
+
+p {
+	color: white;
+	font-size: 10vw;
+}
+
+#container {
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	margin-top: -187.5px;
+	margin-left: -250px;
+    width: 500px;
+    height: 375px;
+}
+
+#followDev {
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	margin-top: -25px;
+	margin-left: -138px;
+}
+
+#tweetAtWhotToBlame {
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	margin-top: -50px;
+	margin-left: -138px;
+}
+
+#itsYou {
+	position: absolute;
+	text-align: left;
+	top: -5%;
+}
+
+#toBlame {
+	position: absolute;
+	text-align: right;
+	width: 98%;
+	top: 100%;
+	margin-top: -25vw;
+}
