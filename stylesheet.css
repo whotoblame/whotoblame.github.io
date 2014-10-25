@@ -2,6 +2,11 @@ body {
 	background-color: #00CC66;
 }
 
+p {
+	color: white;
+	font-size: 70px;
+}
+
 #container {
     margin: 0px auto;
     position: absolute;
@@ -32,4 +37,19 @@ body {
 	left: 100%;
 	margin-top: -50px;
 	margin-left: -138px;
+}
+
+#itsYou {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -280px;
+	margin-top: -300px;
+}
+
+#toBlame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 210px;
 }
